@@ -4,12 +4,45 @@
     padding: 0;
 }
 
-body{
+body
+{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #444;
+}
+
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange
+{
+color: #ff7a00;
+}
+
+header
+{
+    height: 120px;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
 
 }
 
-h1{
-    font-family: 'Crete Round', serif;
+header nav
+{
+    float: right;
+    display: inline-block;
 }
