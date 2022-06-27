@@ -17,6 +17,20 @@ h1
     color: #444;
 }
 
+h2
+{
+    color: #444;
+    font-size: 55px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+
 .wrapper
 {
     width: 940px;
@@ -44,5 +58,53 @@ header h1
 header nav
 {
     float: right;
+    margin-top: 50px;
+
+}
+
+header nav ul li
+{
+    float: left;
     display: inline-block;
+    
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background: url('images/main.jpg') center;
+    background-repeat: no-repeat;
+}
+
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: -15px;
+}
+
+.button-1
+{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background:#ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto; /* Centre sur les cotés */
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
 }
